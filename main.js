@@ -9,3 +9,6 @@ if(navigator.serviceWorker){
 self.addEventListener('offline', () => {
     alert('No Internet connection, loading cached page...')
 })
+self.addEventListener('online', () => {
+    alert('Internet is back')
+})
