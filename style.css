@@ -10,12 +10,10 @@ body{
     color: white;
     text-align: center;
     padding: 2rem;
-    width: 100%;
     background-color: #1c313a;
 
 }
 #menu{
-    width:100%;
     padding: 1rem;
     background-color: #718792;
     color: rgb(191, 255, 244);
