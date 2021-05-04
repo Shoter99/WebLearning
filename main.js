@@ -6,3 +6,6 @@ if(navigator.serviceWorker){
         .catch(err => console.log(`Service Worker: Error ${err}`))
     })    
 }
+self.addEventListener('offline', () => {
+    alert('No Internet connection, loading cached page...')
+})
